@@ -1,0 +1,24 @@
+# TODO - YouTube PHP Security Channel
+# Owner: Sergeant Dwayne Aitken
+# Last updated: 2026-10-23
+
+## Episode 1 (LAUNCH) - PHP2Shell: CVE-2026-109618 + CVE-2026-109619  [THIS WEEK]
+[x] Pulled PHP's own advisories from github.com/php/php-src (GHSA-w8hw / GHSA-6wmf)
+[x] Confirmed fix: PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12 (Oct 21 2026)
+[x] script.md (explainer: Bug -> Impact -> Fix -> Takeaway)
+[x] seo.md (titles / description / tags / thumbnail brief)
+[x] Diagram stage + scenes, EXPLAINER ONLY (no live exploit - actively exploited)
+[x] VIDEO RENDERED - 4m04s narrated MP4
+    -> video/out/PHP2Shell-CVE-2026-109618.mp4  (+ ~/Desktop/Videos)
+    -> rebuild: cd video && python3 build_video.py
+[ ] Review the MP4; tweak script/scenes if wanted, re-render
+[ ] Export thumbnail from seo.md brief
+[ ] Upload UNLISTED -> review -> publish
+
+## Reusable agent
+[x] .claude/agents/youtube-security.md - does the weekly episode end to end
+
+## Backlog / evergreen episodes
+- ep02-cve-2017-9841  PHPUnit eval-stdin.php RCE (Linux Docker, real exploit works)
+- ep03-cve-2024-4577  PHP-CGI arg injection on Windows (needs Windows VM)
+- Vuln classes: type juggling auth bypass; insecure unserialize()
